@@ -1,0 +1,37 @@
+O valor da variável SOMA será 91.
+
+Segue um exemplo de código em Python para calcular a sequência de Fibonacci e verificar se um número informado pertence ou não à sequência:
+def fibonacci(num):
+    a, b = 0, 1
+    while a <= num:
+        if a == num:
+            print("O número informado pertence à sequência de Fibonacci!")
+            return
+        a, b = b, a + b
+    print("O número informado não pertence à sequência de Fibonacci.")
+
+numero = int(input("Informe um número: "))
+fibonacci(numero)
+
+a) O próximo elemento é 9.
+b) O próximo elemento é 128.
+c) O próximo elemento é 49.
+d) O próximo elemento é 100.
+e) O próximo elemento é 13.
+f) O próximo elemento é 20.
+
+Quando se cruzarem na rodovia, ambos estarão à mesma distância da cidade de Ribeirão Preto.
+
+A distância total percorrida pelo carro até o ponto de cruzamento é de 50 km, já que a distância total entre as cidades é de 100 km e o carro sai de Ribeirão Preto. Como a velocidade do carro é de 110 km/h, ele leva 0,45 horas (ou 27 minutos) até o ponto de cruzamento.
+
+Já o caminhão percorre 50 km mais os 2 pedágios, totalizando 60 km até o ponto de cruzamento. Como a velocidade do caminhão é de 80 km/h e ele leva 5 minutos a mais em cada pedágio, ele leva 0,75 horas (ou 45 minutos) até o ponto de cruzamento.
+
+Portanto, quando se cruzarem na rodovia, tanto o carro quanto o caminhão estarão a 50 km da cidade de Ribeirão Preto.
+
+Segue um exemplo de código em Python para inverter os caracteres de uma string:
+
+string = "exemplo de string"
+string_invertida = ""
+for i in range(len(string)-1, -1, -1):
+    string_invertida += string[i]
+print(string_invertida)
